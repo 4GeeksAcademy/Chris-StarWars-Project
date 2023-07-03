@@ -43,7 +43,7 @@ const navigate = useNavigate()
        
         <div className="card  m-2"  
        style={{width:"18rem"}} >
-        <img src={imageSource} onError={handleImageError} className="card-img-top" style={{height:"18rem",objectFit:"cover",borderRadius:"20px"}} alt="..."/>
+        <img src={imageSource} onError={handleImageError} className="card-img-top" style={{height:"18rem",objectFit:"cover",borderRadius:"5px"}} alt="..."/>
         <div className="card-body" style={{height:"16rem",overflow:"scroll"}}>
         <h5 className="card-title">{vehicle.result.properties.name}</h5>
    
