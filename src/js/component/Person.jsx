@@ -59,3 +59,4 @@ const Person = ({char}) => {
 );};
 
 export default Person;
+
