@@ -67,3 +67,4 @@ const navigate = useNavigate()
 );};
 
 export default Planets;
+
