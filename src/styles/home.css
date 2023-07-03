@@ -1,0 +1,125 @@
+body {
+    background-image: url(https://fondosmil.com/fondo/78928.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+    z-index: -1;
+    text-align: center;
+    font-family: 'B612 Mono', monospace;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .placeholder-image {
+    background-image: url("https://w7.pngwing.com/pngs/871/8/png-transparent-computer-icons-error-triangle-icon-angle-triangle-black.png");
+  }
+  
+  .dropdown-menu {
+    background-color: rgba(0, 0, 0);
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    height: 200%;
+    width: 300px;
+    text-align: center;
+    overflow: scroll;
+  }
+  
+  .bx:hover {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .bx-lg:hover {
+    cursor: pointer;
+  }
+  
+  h1 {
+    color: rgb(255, 179, 0);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 100px;
+  }
+  
+  h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 179, 0);
+  }
+  
+  h2 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .card-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 179, 0);
+  }
+  
+  span {
+    font-size: 15px;
+    color: rgb(255, 179, 0);
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.204);
+    color: rgb(255, 179, 0);
+  }
+  
+  .btn {
+    background-color: rgba(255, 179, 0, 0.9);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+  }
+  
+  .card-body {
+    transition: .5s;
+  }
+  
+  .lista {
+    width: 90%;
+    overflow: scroll;
+    margin: auto;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.2em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .planet-card,
+  .person-card,
+  .vehicle-card {
+    border-radius: 10px;
+  }
+  
+  .planet-card:hover,
+  .person-card:hover,
+  .vehicle-card:hover {
+    transform: rotate(5deg);
+    box-shadow: 0 0 10px rgba(255, 179, 0, 0.3);
+  }
+  body, .btn, .bx, h1, .card-title, span {
+    cursor: default;
+  }
