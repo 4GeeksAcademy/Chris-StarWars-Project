@@ -22,7 +22,7 @@ const navigate = useNavigate()
     
 	function handleImageError() {
 		// Código para manejar el error de carga de la imagen
-		setImageSource("https://c4.wallpaperflare.com/wallpaper/670/495/775/tv-show-the-mandalorian-baby-yoda-star-wars-the-mandalorian-tv-show-hd-wallpaper-preview.jpg");
+		setImageSource("https://npr.brightspotcdn.com/dims4/default/ce6acf0/2147483647/strip/true/crop/4603x3452+0+0/resize/1760x1320!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fimages%2Fnews%2Fnpr%2F%5Bcurrent-date%3Acustom%3AY%5D%2F%5Bcurrent-date%3Acustom%3Am%5D%2F530042773_354855539.jpg");
 	  }
 
 
