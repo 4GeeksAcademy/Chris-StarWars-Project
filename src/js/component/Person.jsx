@@ -30,7 +30,7 @@ const Person = ({char}) => {
        
         <div className="card  m-2"  
        style={{width:"18rem"}} >
-        <img src={`https://starwars-visualguide.com/assets/img/characters/${char.result.uid}.jpg`} className="card-img-top" style={{height:"18rem",objectFit:"cover",borderRadius:"20px"}} alt="..."/>
+        <img src={`https://starwars-visualguide.com/assets/img/characters/${char.result.uid}.jpg`} className="card-img-top" style={{height:"18rem",objectFit:"cover",borderRadius:"5px"}} alt="..."/>
         <div className="card-body" style={{height:"16rem",overflow:"scroll"}}>
         <h5 className="card-title"> {char.result.properties.name}</h5>
         
