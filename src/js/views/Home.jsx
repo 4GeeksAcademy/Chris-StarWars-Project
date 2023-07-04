@@ -42,7 +42,7 @@ const Home = () => {
 							
 							return (
 								
-							<li style={{color:"rgb(255, 179, 0"}}  key={index}><h2>{favorite} <box-icon name='crosshair' type='solid' class='bx-lg' color="red" onClick={() => handleDelete(index)}
+							<li style={{color:"rgb(255, 179, 0"}}  key={index}><h2>{favorite} <box-icon type='solid' class='bx-lg ' color="orange" name='trash-alt'onClick={() => handleDelete(index)}
 							>
 							</box-icon></h2>
 							</li>

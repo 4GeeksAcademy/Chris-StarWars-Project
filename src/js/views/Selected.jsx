@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
 
@@ -20,8 +21,8 @@ import { Context } from "../store/appContext";
 	);
 };
 
-// Single.propTypes = {
-// 	match: PropTypes.object
-// };
+Single.propTypes = {
+	match: PropTypes.object
+};
 
 export default Selected;
